@@ -3,7 +3,7 @@ import { startOfHour, parseISO, isBefore, format, subHours } from 'date-fns';
 import pt from 'date-fns/locale/pt';
 import Appointment from '../models/Appointment';
 import File from '../models/Files';
-import User from '../models/Users';
+import User from '../models/User';
 import Notification from '../schemas/Notification';
 
 import CancellationMail from '../jobs/CancellationMail';

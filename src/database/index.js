@@ -1,7 +1,7 @@
 import Sequelize from 'sequelize';
 import mongoose from 'mongoose';
 
-import User from '../app/models/Users';
+import User from '../app/models/User';
 import File from '../app/models/Files';
 import Appointment from '../app/models/Appointment';
 
